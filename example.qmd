@@ -1,0 +1,10 @@
+---
+title: "example.qmd"
+author: "ZUXI LU"
+format: html
+editor: visual
+---
+
+### **This is the example.qmd document for Assignment 2.**
+
+This is the task 1 text.
