@@ -7,7 +7,17 @@ editor: visual
 
 ### **This is the example.qmd document for Assignment 2.**
 
-This is the task 1 text.
-The content is from the main branch.
+This is the task 1 text. The content is from the main branch.
 
+```{r}
+library(ggplot2)
+df <- data.frame(
+  X = c("a", "b", "c","d"),
+  Y = c(12, 7, 19, 16)
+)
 
+ggplot(df, aes(x = X, y = Y)) +
+  geom_bar(stat = "identity") +
+  theme_minimal() +
+  ggtitle("Bar Chart")
+```
